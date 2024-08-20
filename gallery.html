@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <body>
+        <!--===========Navigation Bar=================-->
+        <section class="nav-bar">
+            <div class="logo">Travel With Us</div>
+            <ul class="menu">
+                <li><a href="homepage.html">home</a></li>
+                <li><a href="gallery.html">Galery</a></li>
+                <li><a href="packages.html">package</a></li>
+                <li><a href="quizapart1.html">quiz</a></li>
+                <li><a href="aboutus.html">about us</a></li>
+                <li><a href="map.html">map</a></li>
+                <li><a href="comment.html">Comments</a></li>
+                <li><a href="gayashipageeditor.html">Editor</a></li>
+            </ul>
+            </div>
+        </section>
+        <section class="heading">
+           <h3>Welcome To Our</h3> <h2 style="font-size: 5vw">GALLERY</h2>
+
+
+        <section class="sec01">
+            <div class="product_body">
+                <div class="option_menue">
+                    <form style="display: flex;">
+                        <label class="text">Change page Colour :</label> &nbsp
+                        <div class="select">
+                            <select id="pagecolor_change" onchange="checkOptions()">
+                                <option value="1">Please select background color</option>
+                                <option value="2">Pink</option>
+                                <option value="3">Yellow</option>
+                                <option value="4">Blue</option>
+                                <option value="5">Purple</option> 
+                                <option value="6">Green</option> 
+                            </select>
+                        </div>
+                        <label class="text">Change text Size :</label>	&nbsp
+                        <div class="select" onchange="checkTextsize()">
+                            <select id="textcolor_change" >
+                                <option value="1">Please Select text color</option>
+                                <option value="2">small</option>
+                                <option value="3">medium</option>
+                                <option value="4">large</option>
+                                <option value="5">extra large</option> 
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    
+        </section> 
+        <section class="thabnail_container" onclick="changeImage(event)">
+            <img src="images/Colosseum.jpeg" id="image01">
+            <img src="images/Roman.jpeg" id="image02">
+            <img src="images/eiffeltower.jpeg" id="image03">
+            <img src="images/southbank.jpeg" id="image04">
+            <img src="images/dubai.jpeg" id="image05">
+        </section>
+        <section class="showinwide" id="view_image">
+            <img src="" id="mainView">
+
+            <div id="description" class="description">
+                <p id="imageDescription" class="imageDescription"></p>
+            </div> 
+        </section>
+<script src="java script/gallery.js"></script>
+    
+</body>
+</html>

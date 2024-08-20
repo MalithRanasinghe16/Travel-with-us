@@ -1,0 +1,84 @@
+<!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3><strong>Quick Links</strong></h3>
+        <ul>
+            <li><strong> <a style="text-decoration:none" href="malithpageeditor.html">Page editor</a></strong></li>
+            <li><strong> <a style="text-decoration:none" href="aboutus.html">About</a></strong></li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3><strong>What is Travelings</strong></h3>
+        <ul>
+            <li> <strong>About Travelling</strong></li>
+            <li><strong>Uk Travelling</strong></li>
+            <li><strong>NA Travelling</strong></li>
+            <li><strong>Italy Travelling</strong>r</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3> <strong>Others</strong></h3>
+        <ul>
+            <li> <strong><a style="text-decoration:none" href="gallery.html">Gallery</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="packages.html">Packages</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="map.html">Map</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="comment.html">Comments</a></strong></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+ /*===============Footer===================*/
+.footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: rgb(228, 216, 216);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .footer .links {
+    position: relative;
+    color: #000000;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links h3 {
+    font-family: Barlow Condensed;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  
+  .links li {
+    font-family: Barlow Condensed;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  
+  .links li:hover {
+    color: #cc2222d2;
+  }

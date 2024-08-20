@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="css/quizpart2.css">                  <!--link to stylesheet-->
+
+            <title>
+                Quiz Time !!
+            </title>
+        </head>
+        <body>
+            <div id="quizContainer">            <!--create main div-->        
+                <div id="quiz">
+                    <div id="question"></div>       <!--create div for question-->  
+                    <div id="choices">               <!--create div for choices--> 
+                        <button class="choice" id="A" onclick="checkAnswer('A')"></button><br>      <!--create button for choices--> 
+                        <button class="choice" id="B" onclick="checkAnswer('B')"></button><br>      <!--create button for choices-->
+                        <button class="choice" id="C" onclick="checkAnswer('C')"></button><br>      <!--create button for choices-->
+                        <button class="choice" id="D" onclick="checkAnswer('D')"></button>          <!--create button for choices-->
+                        <div id="timer">                                                <!--create div for timer-->
+                            <div id="counter"></div><br>                                <!--create div for counter-->
+                            <div id="bgTimeBar">                                        <!--create div for time bar-->
+                                <div id="timeBar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="score" style="display: none">                  <!--create div for score section-->
+                <h1>Check Your Score !!</h1>
+                <div id="total"></div>                              <!--create div for score-->
+                <div id="time"></div>                               <!--create div for time-->
+                <table id="table">                                   <!--create table for summary-->
+                    <caption>Summary of the Quiz</caption>
+                    <tr id="progress"></tr>                         <!--create table row for put question numbers-->
+                    <tr id="check"></tr>                            <!--create table row for put correct/incorrect marks-->
+                </table>
+            </div>
+            <script src="java script/quiz.js"></script> 
+            <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>                    <!--link to javascript-->
+        </body>
+    </html>

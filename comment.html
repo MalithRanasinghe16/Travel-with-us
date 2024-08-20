@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+    <!--===========Navigation Bar=================-->
+    <section class="nav-bar">
+        <div class="logo">Travel With Us</div>
+        <ul class="menu">
+            <li><a href="homepage.html">home</a></li>
+            <li><a href="gallery.html">Galery</a></li>
+            <li><a href="packages.html">package</a></li>
+            <li><a href="quizapart1.html">quiz</a></li>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="map.html">map</a></li>
+            <li><a href="comment.html">Comments</a></li>
+            <li><a href="kanchanapageeditor.html">Editor</a></li>
+        </ul>
+        </div>
+    </section>
+    <h1 class="mainh1">Welcome to Our Feedback page!</h1>
+    
+    <h2>Leave a Comment</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="5" cols="40" required></textarea>
+
+        <div class="section_rate dark">
+            <h1>Rate our site</h1>
+
+            <label>
+                <input type="radio" name="dark" id="improve" checked>
+                <span class="design"></span>
+                <span class="text">Improve</span>
+            </label>
+        
+            <label>
+                <input type="radio" id="okay" name="dark">
+                <span class="design"></span>
+                <span class="text">Okay</span>
+            </label>
+        
+            <label>
+                <input type="radio" id="gd" name="dark">
+                <span class="design"></span>
+                <span class="text">Good</span>
+            </label>
+
+            <label>
+                <input type="radio" id="Ex" name="dark">
+                <span class="design"></span>
+                <span class="text">Excellent</span>
+            </label>
+        </div>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+    <h2> Comments</h2>
+    <div id="comments"></div>
+
+   <!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3><strong>Quick Links</strong></h3>
+        <ul>
+            <li><strong> <a style="text-decoration:none" href="malithpageeditor.html">Page editor</a></strong></li>
+            <li><strong> <a style="text-decoration:none" href="aboutus.html">About</a></strong></li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3><strong>What is Travelings</strong></h3>
+        <ul>
+            <li> <strong>About Travelling</strong></li>
+            <li><strong>Uk Travelling</strong></li>
+            <li><strong>NA Travelling</strong></li>
+            <li><strong>Italy Travelling</strong>r</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3> <strong>Others</strong></h3>
+        <ul>
+            <li> <strong><a style="text-decoration:none" href="gallery.html">Gallery</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="packages.html">Packages</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="map.html">Map</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="comment.html">Comments</a></strong></li>
+        </ul>
+    </div>
+</div>
+    
+    <script src="java script/comment.js"></script>
+
+</body>
+</html>

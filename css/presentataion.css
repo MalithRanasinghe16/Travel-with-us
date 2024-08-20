@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+
+#welcome-note{
+    color: yellow;
+    font-family: "Alkatra";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(images/presentation.jpg);
+
+}
+#members{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+}

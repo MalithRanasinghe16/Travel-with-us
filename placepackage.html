@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Your Dream Trip Package</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/placepackage.css">
+</head>
+<body>
+ <!--===========Navigation Bar=================-->
+ <section class="nav-bar">
+    <div class="logo">Travel With Us</div>
+    <ul class="menu">
+        <li><a href="homepage.html">home</a></li>
+        <li><a href="gallery.html">Galery</a></li>
+        <li><a href="packages.html">package</a></li>
+        <li><a href="quizapart1.html">quiz</a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li><a href="map.html">map</a></li>
+        <li><a href="comment.html">Comments</a></li>
+        <li><a href="malithpageeditor.html">Editor</a></li>
+    </ul>
+    </div>
+</section>
+
+	<header>
+		<h1>Book Your Package</h1>
+	</header>
+	<form id="booking-form">
+		<label for="package">Choose a Package:</label>
+		<select id="package" name="package">
+			<option value="Paris tour-2000">Paris Tour ($2000/person)</option>
+  			<option value="New york tour-2500">New york Tour ($2500/person)</option>
+  			<option value="Dubai tour-1500">Dubai Tour ($1500/person)</option>
+			<option value="London tour-3500">London Tour ($3500/person)</option>
+			<option value="Bangkok tour-2700">Bangkok Tour ($2700/person)</option>
+			<option value="Rome tour-3000">Rome Tour ($3000/person)</option>
+		</select>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone" required>
+		<label for="number-of-people">Number of People:</label>
+		<input type="number" id="number-of-people" name="number-of-people" min="1" value="1" required>
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" required>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+        <label for="state">State/Province</label>
+        <input type="text" id="state" name="state" required>
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" required>
+        <label for="zip">Zip/Postal Code</label>
+        <input type="text" id="zip" name="zip" required>
+		<input type="submit" value="Book Now">
+	</form>
+
+	 <!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3><strong>Quick Links</strong></h3>
+        <ul>
+            <li><strong> <a style="text-decoration:none" href="malithpageeditor.html">Page editor</a></strong></li>
+            <li><strong> <a style="text-decoration:none" href="aboutus.html">About</a></strong></li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3><strong>What is Travelings</strong></h3>
+        <ul>
+            <li> <strong> <a style="text-decoration:none" href="extramenu.html"> About Travelling</a> </strong></li>
+            <li><strong> <a style="text-decoration:none" href="rometravelling.html">Rome Travelling</a></strong></li>
+            <li><strong>NA Travelling</strong></li>
+            <li><strong>Italy Travelling</strong>r</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3> <strong>Others</strong></h3>
+        <ul>
+            <li> <strong><a style="text-decoration:none" href="gallery.html">Gallery</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="packages.html">Packages</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="map.html">Map</a></strong></li>
+            <li><strong><a style="text-decoration:none" href="comment.html">Comments</a></strong></li>
+        </ul>
+    </div>
+
+    <script src="java script/placepackage.js"></script>
+    </body>
+    </html>
